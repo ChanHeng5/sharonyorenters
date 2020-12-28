@@ -1,0 +1,136 @@
+:root {
+	--main-color: #00a88b; /*green bg*/
+	--second-color: #248271; /*dark green bg*/
+	--third-color: #f5831f; /*orange bg*/
+	--fourth-color: #d87117; /*dark orange bg*/
+
+	--fontFamily-1: 'Noto Sans', sans-serif;
+	--fontFamily-2: 'Noto Serif', serif;
+	--fontFamily-3: 'Asap', sans-serif;
+
+}
+/*-----------------------------
+ Header 
+ ------------------------------*/
+
+
+.sharonStandardization .header .navbar{
+    background-color:var(--main-color);
+    border-radius: 0;
+}
+
+.sharonStandardization .header .small-menu{
+color: white !important;
+margin-bottom: 10px;
+}
+/*-----------------------------
+ General
+ ------------------------------*/
+
+ .sharonStandardization .sslogo{
+     max-width: 180px;
+     margin: auto;
+ }
+
+ .sharonStandardization .sub-section{
+   margin-bottom: 20px;
+ }
+
+ .sharonStandardization .layout-image{
+   border: 1px solid lightgray;
+ }
+/*-----------------------------
+ Side Nav
+ ------------------------------*/
+ .sharonStandardization .sidenav {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    background-color:#F1F1F1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 2px 1px 5px lightgrey;
+  }
+
+  .sharonStandardization .sidenav #myScrollspy{
+    margin-top: 40px;
+  }
+
+  .sharonStandardization .sslogo{
+    max-width: 180px;
+    margin: auto;
+    }
+  .sharonStandardization .sidenav ul, ol{
+      margin-left: 0;
+      background-color: #F1F1F1;
+  }
+
+  .sharonStandardization .sidenav li a {
+    padding: 6px 8px 6px 26px;
+    text-decoration: none;
+    font-size: 16px;
+    color:var(--main-color);
+    display: block;
+  }
+  
+  .sharonStandardization .sidenav li a:hover {
+    color: white;
+    background-color: var(--main-color);
+  }
+
+
+  .sharonStandardization .sidenav li.active  {
+    background-color: var(--main-color);
+  }
+  
+  .sharonStandardization .sidenav li.active  a{
+    color: white;
+    background-color: var(--main-color);
+  }
+
+/*-----------------------------
+Main 
+ ------------------------------*/
+  .sharonStandardization .main {
+    margin-left: 230px; /* Same as the width of the sidenav */
+    padding: 6px 10px;
+    max-width: 1100px;
+  }
+
+  .sharonStandardization .section{
+      margin-bottom: 60px;
+  }
+
+  .sharonStandardization .sub-section{
+      margin-left: 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 14px;}
+  }
+
+  @media (max-width: 767px) {
+    .sharonStandardization .main {
+      margin-left: 0;
+      margin-top: 50px;
+    }
+
+    h1.document-title{
+      font-size: 28px;
+    }
+  }
+/*-----------------------------
+Code Box
+ ------------------------------*/
+ .sharonStandardization .code-box{
+     background-color: #F9F2F4;
+     padding: 10px;
+ }
+
+ .sharonStandardization .table-doc{
+   border: 1px solid lightgray;
+ }

@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Sharon's UI/UX standardization</title>
+       <!-- Favicons Icon -->
+       <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+       <link href="https://fonts.googleapis.com/css2?family=Asap&family=Noto+Sans&family=Noto+Serif&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/fonts.css" asp-append-version="true" />
+        <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="css/alert.css" asp-append-version="true" />
+        <link rel="stylesheet" href="css/style.css" asp-append-version="true" />
+        <link rel="stylesheet" href="css/StyleBS4mini.css" asp-append-version="true" />
+        <!-- <link rel="stylesheet" href="css/stylesBS4.css" asp-append-version="true" /> -->
+        <link rel="stylesheet" href="css/sharonStandardization.css" asp-append-version="true" />
+
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="30">
+    <div class="sharonStandardization">
+        <div id="header" class="header">
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" data-toggle="collapse" data-target="#sidenav"><i class="fa fa-bars fa-2x navbar-brand small-menu pb-1"></i></a><a href="index.html"><img src="images/YORenters logo v3.0/200819 logo-WHITE.png" class="navbar-brand"></a>
+                </div>
+                </div>
+            </nav>
+        </div>
+    
+        <div id="sidenav" class="sidenav">
+            <div class="text-center">
+                <a href="index.html" class="text-center"><img src="images/YORenters logo v3.0/200819 logo-COLOUR.png" class="sslogo"></a>
+            </div>
+
+            <nav id="myScrollspy">
+                <ul class="nav nav-stacked">
+                    <li class="active"><a href="#versions-section">Versions</a></li>
+                    <li><a href="#pagelayout-section">Page Layout</a></li>
+                    <li><a href="#breadcrumb-section">Breadcrumb</a></li>
+                    <li><a href="#heading-section">Headings</a></li>
+                    <li><a href="#label-section">Labels</a></li>
+                    <li><a href="#button-section">Buttons</a></li>
+                    <li><a href="#badge-section">Badges</a></li>
+                    <li><a href="#anchor-section">Anchor</a></li>
+                    <li><a href="#message-section">Message</a></li>
+                </ul>
+              </nav>
+        </div>
+
+        <div class="main">
+            <div class="container-fluid">
+                <h1 class="document-title">Sharon's UI/UX Standardization <i>Version 1.0</i></h1>
+                
+                <div id="versions-section" class="section">
+                    <h3>Versions</h3>
+                    <p><i>This version section is to indicate version, date and note of changes for this Sharon's UI/UX Standardization documentation.</i></p>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-doc">
+                            <thead>
+                                <tr>
+                                    <th>Version</th>
+                                    <th>Date</th>
+                                    <th>Note of changes</th>
+                                    <th>Author</th>
+                                    <th>Reviewed By</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Version 1.0</td>
+                                    <td>2 December 2020</td>
+                                    <td>This is the first version of this documention.</td>
+                                    <td>Khairul Najmi</td>
+                                    <td>Yee Kee</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="pagelayout-section" class="section">
+                    <h3>Page Layout</h3>
+                    <p><i>This section explains about types of page layout styles that has been identified in Sharon.</i></p>
+                    <ul>
+                        <li>All types of page layout will use the same header as shown in the image below.
+                        <img src="images/sharon-header.PNG" class="my-2 layout-image"></li>
+                        <li>Below are the types of page layouts that have been identified in Sharon.</li>
+                    </ul>
+                    <div class="sub-section">
+                        <h4 class="my-2">Type 1 - Homepage</h4>
+                        <ul>
+                            <li>Homepage is the first page user will see when visiting our website and after they login.</li>
+                            <li>This layout consist of few elements as below:
+                                <ul>
+                                    <li>Tagline with navigation buttons for owner and renter section.</li>
+                                    <li>Banner section to display any advertisments and promotions.</li>
+                                    <li>Categories section for user to browse item by category.</li>
+                                    <li>Hot items section</li>
+                                </ul>
+                            </li>
+                            <li>The example of the layout style is as in the image below.
+                                <img src="images/homepage-layout.jpg" class="my-2 layout-image">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="sub-section">
+                        <h4 class="my-2">Type 2 - General pages.</h4>
+                        <ul>
+                            <li>General pages are the pages that show information about the company and business operation.</li>
+                            <li>Example of general pages are About Us, How It Works, Privacy Policy, Terms of Use, FAQ anf Contact Us.</li>
+                            <li>This layout consist of few elements as below:
+                                <ul>
+                                    <li>Breadcrumb under the header bar. Can refer to breadcrumb section for more details</li>
+                                    <li>Menu section on the left side for user to navigate to any specific page.</li>
+                                    <li>Content section on the right with page title(can refer Headings section for more details) at the top.</li>
+                                </ul>
+                            </li>
+                            <li>The example of the layout style is as in the image below.
+                                <img src="images/general-pages-layout.PNG" class="my-4 layout-image">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="sub-section">
+                        <h4 class="my-2">Type 3 - My Account pages.</h4>
+                        <ul>
+                            <li>My Account pages are the pages for user to manage their own information and details.</li>
+                            <li>Example of My Account pages are Profile, Change Password, Address Book, Security Deposit Wallet, My Orders and Reviews page.</li>
+                            <li>This layout consist of few elements as below:
+                                <ul>
+                                    <li>Breadcrumb under the header bar. Can refer to breadcrumb section for more details</li>
+                                    <li>Menu section on the right side for user to navigate to any specific page with menu title and current user type at the top.</li>
+                                    <li>Content section on the left with page title(can refer Headings section for more details) at the top.</li>
+                                </ul>
+                            </li>
+                            <li>The example of the layout style is as in the image below.
+                                <img src="images/myaccount-layout.PNG" class="my-2 layout-image">
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="my-2">Type 4 - Preview Item page.</h4>
+                        <ul>
+                            <li>Preview Item page is a page for user to view details of an item. It has its own layout style which is diiferent from other page.</li>
+                            <li>This layout consist of few elements as below:
+                                <ul>
+                                    <li>Breadcrumb under the header bar. Can refer to breadcrumb section for more details</li>
+                                    <li>Details of the item which is item image on the left and item description on the right. The heading type for the item name is different from other "page title" style.(Can refer at heading section).</li>
+                                    <li>Description, Specification and Reviews of the item are located at the bottom of the page.</li>
+                                </ul>
+                            </li>
+                            <li>The example of the layout style is as in the image below.
+                                <img src="images/preview-item-page.PNG" class="my-2 layout-image">
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="my-2">Type 5 - Common Pages.</h4>
+                        <ul>
+                            <li>Common pages are pages that doesn't have any specifix layout where it only has breadcrumb, page-title/section-title and its content.</li>
+                            <li>Examples of page which are using this layout are Item listing, Promotions, Rating & Review and Checkout</li>
+                            <li>This layout consist of few elements as below:
+                                <ul>
+                                    <li>Breadcrumb under the header bar. Can refer to breadcrumb section for more details</li>
+                                    <li>Page title.(Can refer headings section for more details).</li>
+                                    <li>Content section.</li>
+                                </ul>
+                            </li>
+                            <li>The example of the layout style is as in the image below.
+                                <img src="images/common-pages-layout.PNG" class="my-2 layout-image">
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="breadcrumb-section" class="section">
+                    <h3>Breadcrumb</h3>
+                    <p><i>This section explains about breadcrumb display styles.</i></p>
+                    <ul>
+                        <li>A breadcrumb navigation provide links back to each previous page the user navigated through, and shows the user's current location in a website.</li>
+                        <li>Every pages are cumpolsory to have breadcrumb.</li>
+                        <li>Please refer code below to implement Breadcrumb.</li>
+                        <div class="row sub-section">
+                            <div class="col-md-5">
+                                <h5 class="my-2">Code Example</h5>
+                                <div class="code-box">
+                                    <code>
+                                    &lt;div class="breadcrumbs"&gt;<br>
+                                    <span style="margin-right: 10px;"></span>&lt;div class="container"&gt;<br>
+                                    <span style="margin-right: 20px;"></span>&lt;div class="row"&gt;<br>
+                                    <span style="margin-right: 30px;"></span>&lt;div class="col-xs-12"&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;ul&gt;<br>
+                                    <span style="margin-right: 50px;"></span>&lt;li class="home"&gt; &lt;a title="Go to Home Page" href="/User/Profile"&gt;Home&lt;/a&gt;&lt;span&gt;»&lt;/span&gt;&lt;/li&gt;<br>
+                                    <span style="margin-right: 50px;"></span>&lt;li&gt;&lt;strong&gt;Security Wallet Top Up Success&lt;/strong&gt;&lt;/li&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;/ul&gt;<br>
+                                    <span style="margin-right: 30px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 20px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 10px;"></span>&lt;/div&gt;<br>
+                                &lt;/div&gt;<br><br>
+                                    </code>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="my-2">Output Example</h5>
+                                <div class="breadcrumbs">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <ul>
+                                                    <li class="home"> <a title="Go to Home Page" href="#">Home</a><span>»</span></li>
+                                                    <li><strong>Security Wallet Top Up Success</strong></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+
+                <div id="heading-section" class="section mt-4">
+                    <h3>Headings</h3>
+                    <p><i>This section explains about heading tag information and the usage of the heading</i></p>
+                    
+                    <div class="sub-section">
+                        <h4 class="mt-3">Heading font size and weight</h4>
+                        <p>All developers must follow the heading tag's font size and weight that have been defined in styles.css as below.
+                        Please do not overwrite it with different font size and weight.</p>
+                        
+                        <div class="row sub-section">
+                            <div class="col-md-5">
+                                <h5 class="mt-3"><code>&lt;h1&gt;</code> tag</h5>
+                                <ul>
+                                    <li>Font Size: 32px</li>
+                                    <li>Font Weight: 600</li>
+                                </ul>
+            
+                                <h5 class="mt-3"><code>&lt;h2&gt;</code> tag</h5>
+                                <ul>
+                                    <li>Font Size: 28px</li>
+                                    <li>Font Weight: 600</li>
+                                </ul>
+            
+                                <h5 class="mt-3"><code>&lt;h3&gt;</code> tag</h5>
+                                <ul>
+                                    <li>Font Size: 24px</li>
+                                    <li>Font Weight: 600</li>
+                                </ul>
+            
+                                <h5 class="mt-3"><code>&lt;h4&gt;</code> tag</h5>
+                                <ul>
+                                    <li>Font Size: 18px</li>
+                                    <li>Font Weight: 600</li>
+                                </ul>
+            
+                                <h5 class="mt-3"><code>&lt;h5&gt;</code> tag</h5>
+                                <ul>
+                                    <li>Font Size: 14px</li>
+                                    <li>Font Weight: 600</li>
+                                </ul>
+            
+                                <h5 class="mt-3"><code>&lt;h6&gt;</code> tag</h5>
+                                <ul>
+                                    <li>Font Size: 12px</li>
+                                    <li>Font Weight: 600</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="mt-3">Example</h5>
+                                <h1>This is Heading 1</h1>
+                                <h2>This is Heading 2</h2>
+                                <h3>This is Heading 3</h3>
+                                <h4>This is Heading 4</h4>
+                                <h5>This is Heading 5</h5>
+                                <h6>This is Heading 6</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="mt-3">The usage of the heading</h4>
+                        
+                        <div class="sub-section">
+                            <h5 class="mt-3">1. Page Title / Section Title</h5>
+                            <ul>
+                                <li>Page title / Section title need to use <code>&lt;h4&gt;</code> heading and must be within <code>&lt;div&gt;</code> element with class <code>.page-title</code>.</li>
+                                <li>This title style should be applied at all pages except in Preview Item page.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;div class="page-title"&gt;<br>
+                                            <span class="ml-3">&lt;h4&gt;Electronic Devices&lt;/h4&gt;</span><br>
+                                            &lt;/div&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <div class="page-title">
+                                        <h4>Electronic Devices</h4>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">2. Item title in Preview Item Page</h5>
+                            <ul>
+                                <li>Item title in Preview item page need to use <code>&lt;h1&gt;</code> heading tag.</li>
+                            </ul>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">3. Paragraph title in article</h5>
+                            <ul>
+                                <li>Title for specific paragraph (if any) has to use <code>&lt;h4&gt;</code> heading tag.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;h4&gt;
+                                            Serving your Desires, The Sustainable Way
+                                            &lt;/h4&gt;<br>
+                                            &lt;p&gt;
+                                            YORenters.com supports the idea of renting instead of buying and contributes to building an eco-friendly
+                                            and sustainable environment by reducing wastage ...
+                                            &lt;/p&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <h4>Serving your Desires, The Sustainable Way</h4>
+                                        <p>
+                                        YORenters.com supports the idea of renting instead of buying and contributes to building an eco-friendly
+                                        and sustainable environment by reducing wastage...
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="label-section" class="section">
+                    <h3>Labels</h3>
+                    <p><i>This section explains about labels information and the usage of the labels.</i></p>
+                    <ul>
+                        <li>Label usually to be used in form or to display information.</li>
+                        <li>Use <code>&lt;label&gt;&lt;/label&gt;</code> html tag for label.</li>
+                        <li>Text for label must end with &lt;space&gt; followed by colon ":" (eg. <label>Gender :</label> ).</li>
+                        <div class="row sub-section">
+                            <div class="col-md-5">
+                                <h5 class="my-2">Code Example</h5>
+                                <div class="code-box">
+                                    <code>
+                                        &lt;label&gt;Gender :&lt;/label&gt;
+                                    </code>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="my-2">Output Example</h5>
+                                <label>Gender :</label>
+                            </div>
+                        </div>
+                        <li>For form label use Astersik "*" with red color by using <code>&lt;span class="text-danger ml-1"&gt;*&lt;/span&gt;</code> before colon to indicate that the field is cumpolsory (eg. <label>Email<span class="text-danger ml-1">*</span> :</label> )</li>
+                        <div class="row sub-section">
+                            <div class="col-md-5">
+                                <h5 class="my-2">Code Example</h5>
+                                <div class="code-box">
+                                    <code>
+                                        &lt;label&gt;Email&lt;span class="text-danger ml-1"&gt;*&lt;/span&gt; :&lt;/label&gt;
+                                    </code>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="my-2">Output Example</h5>
+                                <label>Email<span class="text-danger ml-1">*</span> :</label>
+                            </div>
+                        </div>
+                        <li>Defaul font size  for label is 14px and font weight is 600. Please avoid from changing this size.</li>
+                    </ul>
+                </div>
+
+                <div id="button-section" class="section">
+                    <h3>Buttons</h3>
+                    <p><i>This section explains about button information and the usage of the button.</i></p>
+                    <ul>
+                        <li>Only first letter of the button word is capital.(eg. Register, Login, Edit Profile).</li>
+                        <li>All action buttons should be at the right side of the page.</li>
+                        <li>Icon (if any) should be on the left of the text except for the “next” button should be on the right of the text.</li>
+                    </ul>
+                    <div class="sub-section">
+                        <h4 class="mt-3">Button Colors</h4>
+                        <div class="sub-section">
+                            <h5 class="mt-3">1. Login / Register / Add/ Create / New / Next/ Proceed / Submit / Save / Update / Okay</h5>
+                            <ul>
+                                <li>All of these buttons or any similar meaning button need to use the same class which is <code>btn btn-hero</code>.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;button type="button" class="btn btn-hero"&gt;&lt;i class="fa fa-save mr-1"&gt;&lt;/i&gt;Submit&lt;/button&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <button type="button" class="btn btn-hero"><i class="fa fa-save mr-1"></i>Submit</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">2. Edit</h5>
+                            <ul>
+                                <li>Use <code>btn btn-edit</code> class for edit button.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;button type="button" class="btn btn-edit"&gt;&lt;i class="fa fa-save mr-1"&gt;&lt;/i&gt;Submit&lt;/button&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <button type="button" class="btn btn-edit"><i class="fa fa-edit mr-1"></i>Edit</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">3. Delete / Remove</h5>
+                            <ul>
+                                <li>Use <code>btn btn-danger</code> class for Delete, Remove or any similar meaning buttons.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;button type="button" class="btn btn-danger"&gt;&lt;i class="fa fa-trash-o mr-1"&gt;&lt;/i&gt;Submit&lt;/button&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <button type="button" class="btn btn-danger"><i class="fa fa-trash-o mr-1"></i>Delete</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">4. Back / Cancel</h5>
+                            <ul>
+                                <li>Use <code>btn btn-back</code> class for Back, Cancel or any similar meaning buttons.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;button type="button" class="btn btn-back"&gt;&lt;i class="fa fa-arrow-circle-left mr-1"&gt;&lt;/i&gt;Back&lt;/button&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <button type="button" class="btn btn-back"><i class="fa fa-arrow-circle-left mr-1"></i>Back</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">5. Search / Select / Find / Preview / Use / any helper function</h5>
+                            <ul>
+                                <li>Use <code>btn btn-info</code> class for Search, Select, Find, Preview or any similar meaning buttons.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;button type="button" class="btn btn-info"&gt;&lt;i class="fa fa-search mr-1"&gt;&lt;/i&gt;Preview&lt;/button&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <button type="button" class="btn btn-info"> <i class="fa fa-search mr-1"></i>Preview</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="mt-4">Icons for button</h4>
+                            <div class="sub-section">
+                                <h5 class="mt-3">1. Login</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="icon-lock icons mr-1"&gt;&lt;/i&gt;</code> icon code for Login button.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-hero"&gt;&lt;i class="icon-lock icons mr-1"&gt;&lt;/i&gt;Login&lt;/button&gt;                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-hero"><i class="icon-lock icons mr-1"></i>Login</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">2. Register</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="icon-user icons mr-1"&gt;&lt;/i&gt;</code> icon code for Register button.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-hero"&gt;&lt;i class="icon-user icons mr-1"&gt;&lt;/i&gt;Register&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-hero"><i class="icon-user icons mr-1"></i>Register</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">3. Add / Create / New</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-plus-circle mr-1"&gt;&lt;/i&gt;&lt;/i&gt;</code> icon code for Add, Create and New buttons.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-hero"&gt;&lt;i class="fa fa-plus-circle mr-1"&gt;&lt;/i&gt;Add&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-hero"><i class="fa fa-plus-circle mr-1"></i>Add</button>                                   
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">4. Next / Proceed</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-arrow-circle-right ml-1"&gt;&lt;/i&gt;</code> icon code for Next and Proceed button.</li>
+                                    <li>Only for this button, Icon should be on the right side of button text.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-hero"&gt;Next&lt;i class="fa fa-arrow-circle-right mr-1"&gt;&lt;/i&gt;&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-hero">Next<i class="fa fa-arrow-circle-right ml-1"></i></button>   
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">5. Submit / Save / Update</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-save mr-1"&gt;&lt;/i&gt;</code> icon code for Submit, Save and Update buttons.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-hero"&gt;Sa&lt;i class="fa fa-save mr-1"&gt;&lt;/i&gt;&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-hero"><i class="fa fa-save mr-1"></i>Save</button>   
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">6. Edit</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-edit mr-1"&gt;&lt;/i&gt;</code> icon code for Edit button.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-edit"&gt;&lt;i class="fa fa-edit mr-1"&gt;&lt;/i&gt;&lt;/i&gt;&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-edit"><i class="fa fa-edit mr-1"></i>Edit</button>   
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">7. Delete / Remove</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-trash-o mr-1"&gt;&lt;/i&gt;</code> icon code for Delete and Remove buttons.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-danger"&gt;&lt;i class="fa fa-trash-o mr-1"&gt;&lt;/i&gt;&lt;/i&gt;Delete&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-danger"><i class="fa fa-trash-o mr-1"></i>Delete</button>   
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">8. Back</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-arrow-circle-left mr-1"&gt;&lt;/i&gt;</code> icon code for Back button.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-back"&gt;&lt;i class="fa fa-arrow-circle-left mr-1"&gt;&lt;/i&gt;Back&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-back"><i class="fa fa-arrow-circle-left mr-1"></i>Back</button>   
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">9. Cancel</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-times-circle mr-1"&gt;&lt;/i&gt;</code> icon code for Cancel button.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-back"&gt;&lt;i class="fa fa-times-circle mr-1"&gt;&lt;/i&gt;Back&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-back"><i class="fa fa-times-circle mr-1"></i>Cancel</button>   
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">10. Search / Find / Preview</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-search mr-1"&gt;&lt;/i&gt;</code> icon code for Search, Find, and Preview buttons.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-info"&gt;&lt;i class="fa fa-search mr-1"&gt;&lt;/i&gt;Search&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-info"><i class="fa fa-search mr-1"></i>Search</button>   
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sub-section">
+                                <h5 class="mt-3">11. Okay</h5>
+                                <ul>
+                                    <li>Use <code>&lt;i class="fa fa-check-circle mr-1"&gt;&lt;/i&gt;</code> icon code for Okay button.</li>
+                                </ul> 
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;button type="button" class="btn btn-hero"&gt;&lt;i class="fa fa-check-circle mr-1"&gt;&lt;/i&gt;Okay&lt;/button&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <button type="button" class="btn btn-hero"><i class="fa fa-check-circle mr-1"></i>Okay</button>   
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div id="badge-section" class="section">
+                    <h3>Badges</h3>
+                    <p><i>This section explains about badge information and the usage of the badge.</i></p>
+                    <ul>
+                        <li>Badge is to be used to label status or type for example order status and address type</li>
+                        <li>Use any <code>badge badge-*</code> classes to change the color of the badge as example below</li>
+                    </ul>
+                    <div class="row sub-section">
+                        <div class="col-md-5">
+                            <h5 class="my-2">Code Example</h5>
+                            <div class="code-box">
+                                <code>
+                                    &lt;span class="badge badge-primary"&gt;Primary&lt;/span&gt;<br>
+                                    &lt;span class="badge badge-secondary"&gt;Secondary&lt;/span&gt;<br>
+                                    &lt;span class="badge badge-success"&gt;Success&lt;/span&gt;<br>
+                                    &lt;span class="badge badge-danger"&gt;Danger&lt;/span&gt;<br>
+                                    &lt;span class="badge badge-warning"&gt;Warning&lt;/span&gt;<br>
+                                    &lt;span class="badge badge-info"&gt;Info&lt;/span&gt;<br>
+                                </code>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="my-2">Output Example</h5>
+                            <span class="badge badge-primary">Primary</span>
+                            <span class="badge badge-secondary">Secondary</span>
+                            <span class="badge badge-success">Success</span>
+                            <span class="badge badge-danger">Danger</span>
+                            <span class="badge badge-warning">Warning</span>
+                            <span class="badge badge-info">Info</span>
+                        </div>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="mt-4">Badge for Order status</h4>
+                        <ul>
+                            <li>For Order status, specific badge color has been specied for each status as below</li>
+                        </ul>
+                        <div class="sub-section">
+                            <h5 class="mt-3">1. New</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-new"&gt;New&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-new">New</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">2. Confirmed</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-confirmed"&gt;Confirmed&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-confirmed">Confirmed</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">3. Owner To Ship</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-ownertoship"&gt;Owner To Ship&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-ownertoship">Owner To Ship</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">4. Owner Shipped</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-ownershipped"&gt;Owner Shipped&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-ownershipped">Owner Shipped</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">5. Renter Received</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-renterreceived"&gt;Renter Received&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-renterreceived">Renter Received</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">6. Renter To Ship</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-rentertoship"&gt;Renter To Ship&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-rentertoship">Renter To Ship</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">6. Renter Shipped</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-rentershipped"&gt;Renter Shipped&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-rentershipped">Renter Shipped</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">7. Owner Received</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-ownerreceived"&gt;Owner Received&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-ownerreceived">Owner Received</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">8. Cancelled</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-cancelled"&gt;Cancelled&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-cancelled">Cancelled</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">9. Dispute</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-dispute"&gt;Dispute&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-dispute">Dispute</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">10. Completed</h5>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-status-completed"&gt;Completed&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-status-completed">Completed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4 class="mt-4">Badge for Address types</h4>
+                        <ul>
+                            <li>For Address type, specific badge color has been specied for each status as below</li>
+                        </ul>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">1. Shipping Address</h5>
+                            <ul>
+                                <li>For shipping address, use <code>badge badge-primary</code> class.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-primary"&gt;Shipping Address&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-primary">Shipping Address</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-section">
+                            <h5 class="mt-3">2. Billing Address</h5>
+                            <ul>
+                                <li>For billing address, use <code>badge badge-info</code> class.</li>
+                            </ul>
+                            <div class="row sub-section">
+                                <div class="col-md-5">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;span class="badge badge-info"&gt;Billing Address&lt;/span&gt;<br>
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <span class="badge badge-info">Billing Address</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="anchor-section" class="section">
+                    <h3>Anchor</h3>
+                    <p><i>This section explains about anchor information and the usage of the anchor.</i></p>
+                    <ul>
+                        <li>Use <code>&lt;a&gt;&lt;/a&gt;</code> html tag for anchor</li>
+                        <li>Default color for anchor tag is black (Color code: <code>#333333</code> and hover color is yorenters main color <code>var(--main-color)</code>.
+                        Please avoid from changing these colors.</li>
+                        <div class="row sub-section">
+                            <div class="col-md-5">
+                                <h5 class="my-2">Code Example</h5>
+                                <div class="code-box">
+                                    <code>
+                                        &lt;a&gt;Click here&lt;/a&gt;
+                                    </code>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="my-2">Output Example</h5>
+                                <a>Click here</a>
+                            </div>
+                        </div>
+                        <li>Use href attribute <code>href="#"</code> to make cursor turn to pointer format and to navigate to other page or section.</li>
+                        <div class="row sub-section">
+                            <div class="col-md-5">
+                                <h5 class="my-2">Code Example</h5>
+                                <div class="code-box">
+                                    <code>
+                                        &lt;a href="#"&gt;Click here&lt;/a&gt;
+                                    </code>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="my-2">Output Example</h5>
+                                <a href="#">Click here</a>
+                            </div>
+                        </div>
+                    </ul>
+
+                    <div class="sub-section">
+                        <h4 class="mt-4">Anchor in article</h4>
+                        <div class="sub-section">
+                            <ul>
+                                <li>For article, color for the anchor will use yorenters main color <code>var(--main-color)</code> and for hover use yorenters second color <code>var(--second-color)</code>.</li>
+                                <li>To implement this, use <code>.anchor-article</code> class in <code>&lt;a&gt;</code> tag</li>
+                                <div class="row sub-section">
+                                    <div class="col-md-5">
+                                        <h5 class="my-2">Code Example</h5>
+                                        <div class="code-box">
+                                            <code>
+                                                &lt;a class="anchor-article" href="#"&gt;Click here&lt;/a&gt;
+                                            </code>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5 class="my-2">Output Example</h5>
+                                        <a class="anchor-article" href="#">Click here</a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="message-section" class="section">
+                    <h3>Messages</h3>
+                    <p><i>This section explains about messages display styles.</i></p>
+                    <div class="sub-section">
+                        <h4>Message Page</h4>
+                        <ul>
+                            <li>All success or error messages after performed a process need to be displayed in a page format</li>
+                            <li>The layout of the message need to consist of elements as below:</li>
+                                <ul>
+                                    <li><b>Breadcrumbs.</b></li>
+                                    <li><b>Page Title.</b></li>
+                                    <li><b>Icon.</b> </li>
+                                        <ul>
+                                            <li>Use <i class="fa fa-check-circle text-success"></i> icon for success message and <i class="fa fa-times-circle text-danger"></i> for error message.
+                                                <div class="row sub-section">
+                                                    <div class="col-md-5">
+                                                        <h5 class="my-2">Code Example</h5>
+                                                        <div class="code-box">
+                                                            <code>
+                                                                &lt;i class="fa fa-check-circle fa-4x text-success"&gt;&lt;/i&gt;<br>
+                                                                &lt;i class="fa fa-times-circle fa-4x text-danger"&gt;&lt;/i&gt;
+                                                            </code>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h5 class="my-2">Output Example</h5>
+                                                        <i class="fa fa-check-circle fa-4x text-success"></i>
+                                                        <i class="fa fa-times-circle fa-4x text-danger"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>For 404 error page, change the icon with 404 number.</li>
+                                        </ul>
+                                        
+                                        <li><b>Message Title.</b> </li>
+                                            <ul>
+                                                <li>Use <code>&lt;h3&gt;&lt;/h3&gt;</code>html tag for message title.</li>
+                                            </ul>
+                                        <li><b>Message Description.</b></li>
+                                        <ul>
+                                            <li>Use <code>&lt;h5&gt;&lt;/h5&gt;</code>html tag with <code>mt-3</code> class for message description.</li>
+                                        </ul>
+                                </ul>
+                            <li>See below code and output example for reference.</li>
+                        </ul>
+
+                        <div class="row sub-section">
+                            <div class="col-md-9">
+                                <h5 class="my-2">Code Example</h5>
+                                <div class="code-box">
+                                    <code>
+                                &lt;div class="breadcrumbs"&gt;<br>
+                                    <span style="margin-right: 10px;"></span>&lt;div class="container"&gt;<br>
+                                    <span style="margin-right: 20px;"></span>&lt;div class="row"&gt;<br>
+                                    <span style="margin-right: 30px;"></span>&lt;div class="col-xs-12"&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;ul&gt;<br>
+                                    <span style="margin-right: 50px;"></span>&lt;li class="home"&gt; &lt;a title="Go to Home Page" href="/User/Profile"&gt;Home&lt;/a&gt;&lt;span&gt;»&lt;/span&gt;&lt;/li&gt;<br>
+                                    <span style="margin-right: 50px;"></span>&lt;li&gt;&lt;strong&gt;Security Wallet Top Up Success&lt;/strong&gt;&lt;/li&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;/ul&gt;<br>
+                                    <span style="margin-right: 30px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 20px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 10px;"></span>&lt;/div&gt;<br>
+                                &lt;/div&gt;<br><br>
+
+                                &lt;section class="main-container col2-right-layout"&gt;<br>
+                                    <span style="margin-right: 10px;"></span>&lt;div class="container"&gt;<br>
+                                    <span style="margin-right: 20px;"></span>&lt;div class="row"&gt;<br>
+                                    <span style="margin-right: 30px;"></span>&lt;div class="col-main col-sm-9 col-xs-12"&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;div class="page-title"&gt;<br>
+                                    <span style="margin-right: 50px;"></span>&lt;h4&gt;Security Wallet Top Up Success&lt;/h4&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;div class="card mt-4"&gt;<br>
+                                    <span style="margin-right: 50px;"></span>&lt;div class="card-body text-center"&gt;<br>
+                                    <span style="margin-right: 60px;"></span>&lt;i class="fa fa-check-circle fa-4x text-success"&gt;&lt;/i&gt;<br>
+                                    <span style="margin-right: 60px;"></span>&lt;div class="my-4 mx-auto"&gt;<br>
+                                    <span style="margin-right: 70px;"></span>&lt;h3&gt;Payment Successful!&lt;/h3&gt;<br>
+                                    <span style="margin-right: 70px;"></span>&lt;h5 class="mt-3"&gt;Payment has been received. You may use the button below<br>
+                                    <span style="margin-right: 70px;"></span>to return to your Wallet.&lt;/h5&gt;<br>
+                                    <span style="margin-right: 60px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 60px;"></span>&lt;a class="btn btn-back my-3" href="#"&gt;&lt;i<br>
+                                    <span style="margin-right: 60px;"></span>class="fa fa-arrow-circle-left mr-1"&gt;&lt;/i&gt;Back&lt;/a&gt;<br>
+                                    <span style="margin-right: 50px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 40px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 30px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 20px;"></span>&lt;/div&gt;<br>
+                                    <span style="margin-right: 10px;"></span>&lt;/div&gt;<br>
+                                &lt;/section&gt;<br>
+                                    </code>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <h5 class="my-2">Output Example</h5>
+                                <div class="breadcrumbs">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <ul>
+                                                    <li class="home"> <a title="Go to Home Page" href="#">Home</a><span>»</span></li>
+                                                    <li><strong>Security Wallet Top Up Success</strong></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <section class="main-container col2-right-layout">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-main col-sm-9 col-xs-12">
+                                                <div class="page-title">
+                                                    <h4>Security Wallet Top Up Success</h4>
+                                                </div>
+                                                <div class="card mt-4">
+                                                    <div class="card-body text-center">
+                                                        <i class="fa fa-check-circle fa-4x text-success"></i>
+                                                        <div class="my-4 mx-auto">
+                                                            <h3>Payment Successful!</h3>
+                                                            <h5 class="mt-3">Payment has been received. You may use the button below
+                                                                to return to your Wallet.</h5>
+                                                        </div>
+                                                        <a class="btn btn-back my-3" href="#"><i
+                                                                class="fa fa-arrow-circle-left mr-1"></i>Back</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4>Form Validation Message</h4>
+                        <ul>
+                            <li>Form validation message in a form should be in a red colour by using <code>&lt;span&gt;&lt;/span&gt;</code> and <code>text-danger</code> class and located under the respective textbox.</li>
+                            <li>All validation message need to folow format as below.</li>
+                            <div class="table-responsive mt-3">
+                                <table class="table table-striped table-doc">
+                                    <thead>
+                                        <tr>
+                                            <th>Control Type</th>
+                                            <th>Message Format</th>
+                                            <th>Sample Message</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Textbox</td>
+                                            <td>Enter <b>"Display Name"</b></td>
+                                            <td>Enter first name.<br>
+                                                Enter last name.<br>
+                                                Enter email address.<br>
+                                                Enter item name.<br>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Textbox amount<br>
+                                                <i>* Validation on range</i>
+                                            </td>
+                                            <td>Amount must be more than RM <b>"amount"</b></td>
+                                            <td>Amount must be more than RM 10.00<br>
+                                                Amount must be less than RM 1000.00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Textbox number<br>
+                                                <i>* Validation on range</i>
+                                            </td>
+                                            <td>Permitted <b>"Display Name"</b> is in between <b>"min value"</b> and <b>"max value"</b></td>
+                                            <td>
+                                                Permitted rental days is in between 1 days and 30 days only.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dropdown<br>
+                                            </td>
+                                            <td>Choose <b>"Option Name"</b></td>
+                                            <td>
+                                                Choose item category.<br>
+                                                Choose payment mode.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Calendar<br>
+                                            </td>
+                                            <td>Select <b>"Display Name"</b></td>
+                                            <td>
+                                                Select date of birth.<br>
+                                                Select item expiry date.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>File upload<br>
+                                            </td>
+                                            <td>That file type isn’t supported for <br>"Display Name".<br> Supported types are: <b>"Supported type"</b></td>
+                                            <td>
+                                                That file type isn’t supported for item image. Supported types are: jpg, jpeg, png.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section">
+                        <h4>Form Validation Summary Message</h4>
+                        <ul>
+                            <li>Validation summary is to summarize error in a form which located at the top of the form when it is shown.</li>
+                            <li>Validation summary message need to be wrap with bootstrap alert box as below:
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Code Example</h5>
+                                    <div class="code-box">
+                                        <code>
+                                            &lt;div class="alert alert-danger"&gt;<br>
+                                            <span class="ml-2"></span>Validation summary here.<br>
+                                          &lt;/div&gt;
+                                        </code>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="my-2">Output Example</h5>
+                                    <div class="alert alert-danger" role="alert">
+                                        Validation summary here.
+                                      </div>
+                                </div>
+                                <img src="images/validation-summary-example.png" class="my-2 layout-image">
+                            </li>
+                        </ul>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery-validation/jquery.validate.js"></script>
+    <script src="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/alert.js" asp-append-version="true"></script>
+    <script src="js/sharonStandardization.js" asp-append-version="true"></script>
+</body>
+</html>

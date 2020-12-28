@@ -1,0 +1,172 @@
+:root {
+	--main-color: #00a88b; /*green bg*/
+	--second-color: #248271; /*dark green bg*/
+	--third-color: #f5831f; /*orange bg*/
+	--fourth-color: #d87117; /*dark orange bg*/
+
+	--fontFamily-1: 'Noto Sans', sans-serif;
+	--fontFamily-2: 'Noto Serif', serif;
+	--fontFamily-3: 'Asap', sans-serif;
+
+}
+
+/* ---------------
+Buttons
+------------------ */
+
+/* Hero Button */
+.btn-hero{
+    background-color: #00a88b;
+    color: white;
+}
+
+.btn-hero:hover{
+    background-color: #f5831f;
+    color: white;
+}
+
+.btn-hero:focus{
+    background-color: #f5831f;
+    color: white;
+}
+
+/* Edit Button */
+.btn-edit{
+    background-color: #f5831f;
+    color: white;
+}
+
+.btn-edit:hover{
+    background-color: #c25b00;
+    color: white;
+}
+
+.btn-edit:focus{
+    background-color: #c25b00;
+    color: white;
+}
+
+/* Back Button */
+.btn-back{
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-back:hover{
+    background-color: #5a6268;
+    color: white;
+}
+
+.btn-back:focus{
+    background-color: #5a6268;
+    color: white;
+}
+
+/* ---------------
+Anchor Article
+------------------ */
+.anchor-article{
+    color: var(--main-color);
+}
+
+.anchor-article:hover{
+    color: var(--second-color);
+}
+
+/* ---------------
+Badges
+------------------ */
+.badge{
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid;
+    
+    background-color: transparent;
+}
+
+.badge-primary{
+    color:#007bff;
+    border-color:#007bff;
+}
+
+.badge-secondary{
+    color:#6c757d;
+    border-color:#6c757d;
+}
+
+.badge-success{
+    color:#28a745;
+    border-color:#28a745;
+}
+
+.badge-danger{
+    color:#dc3545;
+    border-color:#dc3545;
+}
+
+.badge-warning{
+    color:#ffc107;
+    border-color:#ffc107;
+}
+
+.badge-info{
+    color:#17a2b8;
+    border-color:#17a2b8;
+}
+
+/* Badges for status */
+
+.badge-status-new{
+    color:#00c9b7;
+    border-color:#00c9b7;
+}
+
+.badge-status-confirmed{
+    color:#00b94e;
+    border-color:#00b94e;
+}
+
+.badge-status-ownertoship{
+    color:#d36d23;
+    border-color:#d36d23;
+}
+
+.badge-status-ownershipped{
+    color:#b74c00;
+    border-color:#b74c00;
+}
+
+.badge-status-renterreceived{
+    color:#bc01cc;
+    border-color:#bc01cc;
+}
+
+.badge-status-rentertoship{
+    color:#de57a4;
+    border-color:#de57a4;
+}
+
+.badge-status-rentershipped{
+    color:#854ada;
+    border-color:#854ada;
+}
+
+.badge-status-ownerreceived{
+    color:#e4a579;
+    border-color:#e4a579;
+}
+
+.badge-status-cancelled{
+    color:#7e8b93;
+    border-color:#7e8b93;
+}
+
+.badge-status-dispute{
+    color:#d12032;
+    border-color:#d12032;
+}
+
+.badge-status-completed{
+    color:#535edc;
+    border-color:#535edc;
+}

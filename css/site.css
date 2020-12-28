@@ -1,0 +1,659 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+:root {
+    --basicBackgroundColor: #223854;
+    --navBarColor: #bbc7d4;
+    --main-color: #00a88b; /*green bg*/
+    --second-color: #248271; /*dark green bg*/
+    --third-color: #f5831f; /*orange bg*/
+    --fourth-color: #d87117; /*dark orange bg*/
+    --fontFamily-1: 'Noto Sans', sans-serif;
+    --fontFamily-2: 'Noto Serif', serif;
+    --fontFamily-3: 'Asap', sans-serif;
+}
+
+.main-color {
+    color: var(--main-color) !important;
+}
+
+.bg-main-color {
+    background-color: var(--main-color) !important;
+}
+
+    .bg-main-color:hover {
+        background-color: var(--second-color) !important;
+    }
+
+.bg-second-color {
+    background-color: var(--third-color) !important;
+}
+
+    .bg-second-color:hover {
+        background-color: var(--fourth-color) !important;
+    }
+
+img.flag.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.color-main-1 {
+    color: var(--main-color) !important;
+}
+
+.color-main-2 {
+    color: var(--second-color) !important;
+}
+
+.color-second-1 {
+    color: var(--third-color) !important;
+}
+
+.color-second-2 {
+    color: var(--fourth-color) !important;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-button {
+    width: 11px;
+    height: 5px;
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #f5831f; /* rgba(33, 53, 163, 0.91);*/
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #248271;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(48, 78, 207, 0.88), inset 0 -1px 0 rgba(60, 109, 174, 0.97);
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #00a88b;
+    }
+
+#Processing {
+    position: fixed;
+    z-index: 99999;
+    padding: 100%;
+    text-align: center;
+    display: block;
+    background-color: rgba(189, 193, 180, 0.29);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+
+.btn-primary {
+    border-color: #1861ac;
+}
+
+.badge-primary, .btn-primary {
+    color: #fff;
+    background-color: #0b77c3;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.w-30 {
+    width: 30% !important;
+}
+
+ul.multiselect-container {
+    left: 0;
+    right: initial !important;
+    text-align: left;
+    width: 311px;
+}
+
+    option.main, ul.multiselect-container li.main {
+        color: #117d9a;
+    }
+
+    ul.multiselect-container.dropdown-menu li:not(.active) > a:hover {
+        color: #5090c7 !important;
+    }
+
+    option.asal, ul.multiselect-container li.asal {
+        background-color: aliceblue;
+    }
+
+    ul .multiselect-container li.main-10 {
+        margin-left: 10px;
+        color: #117d9a;
+    }
+
+    option.main-20, ul.multiselect-container li.main-20 {
+        margin-left: 20px;
+        color: #117d9a;
+    }
+
+    option.main-30, ul.multiselect-container li.main-30 {
+        margin-left: 30px;
+        color: #13a5cc;
+    }
+
+    option.main-40, ul.multiselect-container li.main-40 {
+        margin-left: 40px;
+        color: #13a5cc;
+    }
+
+    option.main-50, ul.multiselect-container li.main-50 {
+        margin-left: 50px;
+        color: #2bb7dc;
+    }
+
+    option.main-60, ul.multiselect-container li.main-60 {
+        margin-left: 60px;
+        color: #2bb7dc;
+    }
+
+    option.main-70, ul.multiselect-container li.main-70 {
+        margin-left: 70px;
+        color: #46cbef;
+    }
+
+    option.main-80, ul.multiselect-container li.main-80 {
+        margin-left: 80px;
+        color: #46cbef;
+    }
+
+    option.main-90, ul.multiselect-container li.main-90 {
+        margin-left: 90px;
+        color: #76dbf7;
+    }
+
+    option.main-100, ul.multiselect-container li.main-100 {
+        margin-left: 100px;
+        color: #76dbf7;
+    }
+
+    option.main-120, ul.multiselect-container li.main-120 {
+        margin-left: 120px;
+    }
+
+button.multiselect {
+    border: solid 1px #ced4da;
+}
+
+.multiselect-native-select {
+    width: 100%;
+}
+
+    .multiselect-native-select .btn-group {
+        width: 100%;
+        text-align: left;
+    }
+
+        .multiselect-native-select .btn-group button {
+            text-align: left;
+        }
+
+    .multiselect-native-select .dropdown-toggle::after {
+        left: 3px;
+        right: auto;
+        position: absolute;
+        top: 15px;
+    }
+
+.multiselect {
+    font-size: inherit !important;
+}
+
+ul.imgfiles-area img {
+    width: 50px;
+    border: solid 1px #eee;
+    box-shadow: 0px 0px 3px #00a88b;
+}
+
+audio {
+    width: 100%;
+    border-radius: 90px;
+    transform: scale(1.05);
+    height: 42px;
+}
+
+    audio:not(.homeScreen) {
+        box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    }
+
+ul.pagination li.disabled a {
+    background-color: #dadada !important;
+    cursor: not-allowed;
+}
+
+ul.pagination li.disabled {
+    cursor: not-allowed;
+}
+
+input[type=checkbox] {
+    height: 17px !important;
+    width: 18px !important;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0f93a9;
+}
+
+li.nav-item a {
+    color: #77999e;
+    font-weight: bold;
+}
+
+li.active a {
+    color: #38b5ca;
+}
+
+li {
+    transition: all 0.3s;
+}
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+header nav {
+    background-color: var(--basicBackgroundColor);
+    opacity: 0.9;
+}
+
+footer, header nav {
+    color: #fff;
+}
+
+.navbar-brand {
+    color: var(--navBarColor) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--navBarColor);
+}
+
+    .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {
+        color: rgb(222, 228, 236);
+    }
+
+.navbar-brand {
+    font-size: 2.3rem;
+}
+
+
+.navbar-nav.main li.nav-item:hover, .navbar-nav.main li.active.nav-item {
+    background-color: #274b61;
+    color: #fff !important;
+}
+
+    .navbar-nav.main li.active.nav-item a {
+        color: inherit !important;
+    }
+
+.row-section {
+    padding: .9rem !important;
+    margin-bottom: .5rem !important;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+    .dropdown-submenu .dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+    }
+
+.but_full3 {
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    text-align: center;
+    color: #272727;
+    border-radius: 4px;
+    vertical-align: middle;
+    line-height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+    .but_full3:hover {
+        color: #fff;
+    }
+
+    .but_full3 .butprogress {
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        height: 55px;
+        width: 10px;
+        position: absolute;
+        overflow: hidden;
+        border-radius: 4px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .but_full3:not(.disabled):hover .butprogress {
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        /*width: calc(100% - 22px);*/
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    .but_full3 span {
+        position: relative;
+        z-index: 99;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+.but_small1 {
+    padding: 8px 18px !important;
+}
+
+    .but_small1:hover {
+        color: #fff;
+        background-color: var(--third-color) !important;
+    }
+
+
+.disabled {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    opacity: .65;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    pointer-events: none;
+    background-color: #eee !important;
+}
+
+    .disabled span, .disabled button, .disabled div {
+        pointer-events: none;
+    }
+
+.money {
+    font-size: 42px;
+    font-weight: normal;
+}
+
+    .money span {
+        font-size: 16px;
+        margin-left: -10px;
+    }
+
+.trow-wide {
+    height: 70px;
+    transition: all .3s ease;
+}
+
+    .trow-wide td {
+        padding: 16px 20px !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        vertical-align: middle !important;
+    }
+
+.input-x-lg {
+    height: 50px;
+    font-size: 24px
+}
+
+.fbx-div img {
+    width: 50px;
+}
+
+#fpx-bank-element {
+    border: solid 0.5px var(--main-color);
+}
+
+#fpx-bank-element {
+    background-color: #fff;
+}
+
+.text-gray {
+    color: #999;
+}
+/*media : please put all media css under this line at the bottom, and general css above this line*/
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 720px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 991px) {
+    form input.search {
+        width: 95% !important;
+    }
+
+    form.search span, form.search a, form.search button {
+        padding: 6px 12px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    form.search.main {
+        width: 70%;
+        height: 45px;
+    }
+
+    form.search {
+        height: 45px;
+    }
+
+        form.search.inner {
+            width: 100%;
+        }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+
+    .headerlinkmenu .dropdown-submenu .dropdown-menu {
+        top: 5px;
+        left: 6%;
+        position: relative;
+        margin-top: 0px;
+    }
+}
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+input.payment-method-border[type="radio"] {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    &:not(:disabled) ~ label;
+    {
+        cursor: pointer;
+    }
+
+    &:disabled ~ label.payment-method-label {
+        color: hsla(150, 5%, 75%, 1);
+        border-color: hsla(150, 5%, 75%, 1);
+        box-shadow: none;
+        cursor: not-allowed;
+    }
+}
+
+li[data-section-shippingcompany].active {
+    background-color: #F0F0F0;
+}
+
+
+.payment-method-label {
+    height: 100%;
+    display: block;
+    background: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    padding: 7.9px;
+    margin-bottom: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+input.payment-method-border[type="radio"]:checked + label {
+    background: white;
+    color: hsla(150, 5%, 75%, 1);
+    ;
+    box-shadow: 0px 0px 20px #00a88b;
+    &::after
+
+
+{
+    color: hsla(215, 5%, 25%, 1);
+    font-family: FontAwesome;
+    border: 2px solid hsla(150, 75%, 45%, 1);
+    content: "\f00c";
+    font-size: 24px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0px 2px 5px -2px hsla(0, 0%, 0%, 0.25);
+}
+}
+
+
+
+
+
+.vertical-alignment-helper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events: none;
+}
+
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width: inherit;
+    max-width: inherit; /* For Bootstrap 4 - to avoid the modal window stretching full width */
+    height: inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.btn-cancel {
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+.modal-body {
+    height: 77vh;
+    overflow-y: auto;
+}
+
+p.black {
+    color: black;
+}
+
+.btn-action {
+    height: 33px;
+}
+}
+
+.disable-click {
+    pointer-events: none;
+}
+
+.dataTables_wrapper {
+    font-family: var(--fontFamily-1), var(--fontFamily-2);
+    font-size: 12px
+}

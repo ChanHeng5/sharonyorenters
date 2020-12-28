@@ -1,0 +1,68 @@
+﻿body {
+    /*background: #34495e;*/
+}
+
+.reg-title {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#form-register .area {
+    direction: rtl;
+    background: #eceef1;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#form-register .form-row {
+    position: relative;
+}
+
+    #form-register .form-row input {
+        padding-left: 32px;
+        direction: ltr;
+        text-align: left;
+    }
+
+    #form-register .form-row i, #form-register .form-row svg {
+        position: absolute;
+        bottom: auto;
+        color: #5b5d61;
+        top: 10px;
+        left: 10px;
+    }
+
+.text-danger {
+    font-size: 14px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+#form-register ul {
+    text-align: left;
+    direction:ltr;
+}
+.form-check-input {
+    position: relative;
+    margin-right: 0;
+    margin-left:2px;
+}
+.grecaptcha-badge {
+    left: 65px !important;
+}
+
+    @media(max-width: 991px) {
+        #form-register .area {
+            width: 100% !important;
+        }
+    }
+
+.box-authentication .forgot-pass {
+    margin-top: 10px;
+}
+
+hr.line-seperator {
+    margin-top: 14px;
+    margin-bottom: 0px;
+}

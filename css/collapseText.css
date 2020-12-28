@@ -1,0 +1,19 @@
+﻿
+.module a.btn-collapse.collapsed:after {
+    content: '+ Show more ';
+}
+
+.module a.btn-collapse:not(.collapsed):after {
+    content: '-  Show less ';
+}
+
+.module .collapse:not(.show):not(.Ans) {
+    display: block;
+    /* height = lineheight * no of lines to display */
+    height: 3.2em;
+    overflow: hidden;
+}
+
+    .module .collapsing {
+        height: 3.2em;
+    }

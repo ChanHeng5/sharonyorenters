@@ -1,0 +1,83 @@
+﻿.alert-Am {
+    /*position: absolute;
+    top: 193px;
+    right: 0px;
+    left: auto;*/
+    display: none;
+    transform: translateX(0px);
+}
+
+
+
+@media (min-width: 992px) {
+    .alert-Am {
+        right: 0px;
+    }
+
+        .alert-Am .alert {
+            right: 100px;
+        }
+}
+
+.confirm-success {
+    color: #ffffff;
+    background-color: #65a767;
+    border-color: #c3e6cb;
+}
+
+.confirm-primary {
+    color: #ffffff;
+    background-color: #1d6486;
+    border-color: #1d6486;
+}
+
+.confirm-info {
+    color: #ffffff;
+    background-color: #0c9ab5;
+    border-color: #bee5eb;
+}
+
+.confirm-warning {
+    color: #ffffff;
+    background-color: #d08418;
+    border-color: #ffeeba;
+}
+
+.confirm-danger {
+    color: #ffffff;
+    background-color: #d9534f;
+    border-color: #f5c6cb;
+}
+
+.alert-Am {
+    /*position: fixed;
+    top: 60px;*/
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1040;
+    /*height: 100%;*/
+    /*background-color: #00000040;*/
+    padding: 10px 0px;
+    text-align: center;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    -o-transition: -o-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+}
+
+    .alert-Am:has(> div) {
+        padding: 20px 0px;
+    }
+
+    .alert-Am > .alert {
+        width: auto;
+        margin: 0 auto;
+        margin-top: 7px;
+        max-width: 50%;
+        -webkit-transition: -webkit-transform .1s ease-in-out;
+        -o-transition: -o-transform .1s ease-in-out;
+        transition: transform .1s ease-in-out;
+    }
+
+div#modalConfirm {
+    font-family: var(--fontFamily-1);
+}
